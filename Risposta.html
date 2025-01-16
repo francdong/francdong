@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domanda sul Melone</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="content">
+        <h1>Ti piace melone?</h1>
+        <button onclick="rispondi('si')">Sì</button>
+        <button onclick="rispondi('no')">No</button>
+    </div>
+
+    <script>
+        function rispondi(risposta) {
+            document.getElementById('content').innerHTML = '<h1>Mi dispiace, non posso</h1>';
+        }
+    </script>
+</body>
+</html>

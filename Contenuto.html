@@ -1,1 +1,76 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+<head> 
+   <meta charset="UTF-8"> 
+   <title>La notte di San Bartolomeo</title>
+   <style>
+       body {
+           background-color: black; 
+           display: flex; 
+           flex-direction: column;
+           justify-content: center;  
+           align-items: center; 
+       }
+       .div {
+           background-color: orange;
+           width: 30%; 
+           max-width: 800px; 
+           padding: 20px;
+       }
+       .button-set {
+           display: flex; 
+           justify-content: space-between;
+           padding: 20px; 
+       }
+       .button {
+           padding: 15px;  
+           color: white; 
+           cursor: pointer; 
+       }
+   </style>
+</head> 
 
+<body> 
+   <div class="div">
+       <h1 style="color:red">La strage della Notte di San Bartolomeo</h1> 
+       <p>Tutta la storia inizia da una
+       <b>vendetta indotta dalla <i>battaglia di Lepanto</i>
+       e dal crescente prestigio della Spagna.</b></p> 
+
+       <table style="background-color:green">
+           <tr >
+               <thead>
+                   <tr><th>Strage di San Bartolomeo</th></tr>
+               </thead>
+               <tr>
+                   <td>
+                       <img src="https://www.meisterdrucke.it/kunstwerke/1000px/French_School_-_War_of_the_Three_Henri_(1585-1586)_Following_the_idees_of_the_League_and_its_lea_-_(MeisterDrucke-924897).jpg" style="height:auto ; width:100%">
+                   </td>
+               </tr>
+               <tr><th>François Dubois (1529-1584): il massacro di San Bartolomeo</th></tr>
+           </tr>
+       </table>
+
+       <table  style="background-color:yellowgreen; 
+justify-content: center; 
+    align-items: center; 
+           padding:60px">
+           <tr><th>Data</th><td>23-24 agosto 1572</td></tr>
+           <tr><th>Luogo</th><td><a href="https://g.co/kgs/5KCD1CD">Parigi</a></td></tr>
+       </table>
+
+       <ul>
+           <li>Guerra dei tre Enrichi</li>
+           <li>Ugonotti Vs Cattolici</li>
+           <li>Vittoria degli Ugonotti</li>
+           <li>Enrico di Navarra sale al trono</li>
+           <li>Libertà di confessione</li>
+       </ul>
+
+       <div class="button-set">
+           <button style="background-color:blue"class="button" onclick="window.location.href=''">Indietro</button> 
+           <button style="background-color:lightgray"class="button" disabled >Avanti</button> 
+       </div>
+   </div>
+</body> 
+</html>
